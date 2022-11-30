@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body class="bg-veryDarkBlue">
+    <main class="flex justify-center my-24">
+      <article class='bg-darkBlue w-1/2 rounded-2xl p-6' id="rating-form">
+        <div>
+  
+          <header class='my-4 bg-veryDarkBlue p-2 w-8 rounded-full xl:w-20 '>
+            <img class="xl:mx-auto xl:p-5 xl:w-16" src="./images/icon-star.svg" alt="star" />
+          </header>
+  
+          <h1 class='text-white font-bold text-2xl lg:text-3xl xl:text-5xl'>How did we do?</h1>
+  
+          <p class='my-4 text-lightGrey text-xs md:text-base lg:text-lg xl:text-2xl'>
+            Please let us know how we did with your support request. All feedback is appreciated
+            to help us improve our offering!
+          </p>
+  
+          <form action="#">              
+  
+            <div class="score flex">
+  
+              <div class="score1">
+                <input type="radio" name="userScore" id="1" value="1" class='r-btn hidden peer' />
+                <label for="1"
+                  class='inline-block w-8 md:w-12 md:p-2 lg:w-14 lg:p-3 xl:w-20 xl:p-5 xl:text-lg bg-veryDarkBlue rounded-full text-center text-mediumGrey hover:bg-lightGrey hover:text-white hover:cursor-pointer peer-checked:bg-orange peer-checked:text-white'>1</label>
+              </div>
+  
+              <div class="score2">
+  
+                <input type="radio" name="userScore" id="2" value="2" class='r-btn hidden peer' />
+                <label for="2"
+                  class='inline-block w-8 mx-2 md:w-12 md:mx-6 md:p-2 lg:w-14 lg:mx-10 lg:p-3 xl:mx-16 xl:w-20 xl:p-5 xl:text-lg bg-veryDarkBlue rounded-full text-center text-mediumGrey hover:bg-lightGrey hover:text-white hover:cursor-pointer peer-checked:bg-orange peer-checked:text-white'>2</label>
+              </div>
+  
+              <div class="score3">
+  
+                <input type="radio" name="userScore" id="3" value="3" class='r-btn hidden peer' />
+                <label for="3"
+                  class='inline-block w-8 md:w-12 md:p-2 lg:w-14 lg:p-3 xl:w-20 xl:p-5 xl:text-lg bg-veryDarkBlue rounded-full text-center text-mediumGrey hover:bg-lightGrey hover:text-white hover:cursor-pointer peer-checked:bg-orange peer-checked:text-white'>3</label>
+              </div>
+  
+              <div class="score4">
+                <input type="radio" name="userScore" id="4" value="4" class='r-btn hidden peer' />
+                <label for="4"
+                  class='inline-block w-8 mx-2 md:w-12 md:mx-6 md:p-2 lg:w-14 lg:mx-10 lg:p-3 xl:mx-16 xl:w-20 xl:p-5 xl:text-lg bg-veryDarkBlue rounded-full text-center text-mediumGrey hover:bg-lightGrey hover:text-white hover:cursor-pointer peer-checked:bg-orange peer-checked:text-white'>4</label>
+              </div>
+  
+              <div class="score5">
+                <input type="radio" name="userScore" id="5" value="5" class='r-btn hidden peer' />
+                <label for="5"
+                  class='inline-block w-8 md:w-12 md:p-2 lg:w-14 lg:p-3 xl:w-20 xl:p-5 xl:text-lg bg-veryDarkBlue rounded-full text-center text-mediumGrey hover:bg-lightGrey hover:text-white hover:cursor-pointer peer-checked:bg-orange peer-checked:text-white'>5</label>
+              </div>
+            </div>
+  
+          </form>
+  
+          <button
+            class='s-btn block my-4 text-white bg-orange rounded-full py-1 w-full uppercase tracking-widest hover:bg-white hover:text-orange lg:text-xl xl:rounded-xl xl:text-2xl'
+            >Submit</button>
+  
+        </div>
+      </article>
+  
+      <article class='hidden bg-darkBlue w-1/2 rounded-2xl p-6' id="final-page">
+        <div>
+          <header>
+            <img src="./images/illustration-thank-you.svg" alt="#" class="mx-auto">
+          </header>
+          <p id="result"
+            class="text-orange mx-auto text-center my-4 p-1 rounded-full bg-gray-700 w-max lg:text-lg xl:text-2xl xl:p-2">
+          </p>
+  
+          <h1 class="mx-auto text-2xl font-bold text-center text-white lg:text-3xl xl:text-5xl" id="msg-heading">Thank you!</h1>
+  
+          <p class="mx-auto mt-4 text-center text-lightGrey text-xs lg:text-lg xl:text-2xl" id="msg-text">We appreciate you taking the
+            time to give a rating. If you ever need more support,
+            don’t hesitate to get in touch!</p>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div class="attribution text-center text-lightGrey text-xs">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-white">Frontend
+          Mentor</a>.
+        Coded by <a href="#" class="text-white">Tushar Biswas</a>.
+      </div>
+    </footer>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
