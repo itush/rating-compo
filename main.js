@@ -2,6 +2,7 @@ import './style.css'
 // Disable the submit button unless any score is selected
 document.querySelector(".s-btn").disabled = true;
 
+// Retrieve an HTML collection of elements with the name attribute equal to 'userScore'. This method returns a NodeList of all the matching elements on the current document. The resulting NodeList is then assigned to the finalScore constant.
 const finalScore = document.getElementsByName('userScore');
 console.log(finalScore);
 
