@@ -25,6 +25,7 @@ const showRating = () => {
 
         const x = document.getElementById("result");
 
+        /*If the element is checked display the value of finalScore[i]*/
         (finalScore[i].checked) ? (x.innerHTML = `You selected ` + finalScore[i].value + ` out of 5`) : (``);
     }
     // Hide the rating form
